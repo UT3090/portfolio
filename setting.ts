@@ -8,10 +8,12 @@ const Setting = {
   isProd,
   basePath: Env.basePath,
   myPics: [
-    'devil',
-    'kurokawa',
-    'devil',
-  ].map((name) => `${Env.basePath}/${name}.png`)
+    'devil.png',
+    'kurokawa.png',
+    'devil.png',
+    'hacker.jpg',
+    'kappa.png',
+  ].map((name) => `${Env.basePath}/${name}`)
 };
 
 export default Setting;
