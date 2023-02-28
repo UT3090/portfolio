@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout menu={false} footer={false}>
       <div id='Index'>
-        <h1>Hello Kurokawa 💓💓💓</h1>
+        <h1>Hello Kurokawa 😈😈😈</h1>
         <img id='Logo' src={`${setting.basePath}/devil.png`} alt="Logo" />
         <div id="IndexLink">
         {
