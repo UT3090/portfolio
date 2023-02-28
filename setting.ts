@@ -8,7 +8,9 @@ const Setting = {
   isProd,
   basePath: Env.basePath,
   myPics: [
-    'devil'
+    'devil',
+    'devil',
+    'devil',
   ].map((name) => `${Env.basePath}/${name}.png`)
 };
 
