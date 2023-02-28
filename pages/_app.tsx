@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+// デフォルトのテーマ
+import '@splidejs/react-splide/css';
 
 import '../styles/styles.scss';
 import '../styles/menu.scss';

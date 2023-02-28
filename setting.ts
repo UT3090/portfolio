@@ -7,6 +7,9 @@ const Setting = {
   title: '😈 Kurokawa Resume 😈',
   isProd,
   basePath: Env.basePath,
+  myPics: [
+    'devil'
+  ].map((name) => `${Env.basePath}/${name}.png`)
 };
 
 export default Setting;
