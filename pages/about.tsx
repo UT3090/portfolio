@@ -11,7 +11,8 @@ export default function AboutPage() {
         <h1>About Kurokawa, Who is</h1>
         <p>私は天才プログラマ、黒川唯人。<br /><br />ITのすべてを知り尽くした男。<br />私の辞書に不可能の二文字はない。</p>
         <Splide
-          aria-label="私のお気に入りの画像集"
+          id="MyPhotos"
+          aria-label="くろかわの写真"
           options={{
             autoplay: true,
             interval: 3000,
@@ -20,7 +21,7 @@ export default function AboutPage() {
         >
           {
             Setting.myPics.map((pic, index) => (
-              <SplideSlide key={index}>
+              <SplideSlide key={index} className='MyPhoto'>
                 <img src={pic} alt='My photos' />
               </SplideSlide>
             ))
