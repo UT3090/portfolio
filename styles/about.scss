@@ -1,0 +1,16 @@
+
+#About {
+  #MyPhotos {
+    width: 100%;
+    max-height: 300px;
+    .MyPhoto {
+      img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

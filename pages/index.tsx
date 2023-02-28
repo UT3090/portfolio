@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <Layout menu={false} footer={false}>
       <div id='Index'>
-        <h1>Hello Next.js 💓💓💓</h1>
-        <img id='Logo' src={`${setting.basePath}/tako.png`} alt="Logo" />
+        <h1>Hello Kurokawa 😈😈😈</h1>
+        <img id='Logo' src={`${setting.basePath}/devil.png`} alt="Logo" />
         <div id="IndexLink">
         {
           pages.map((page, index: number) => {
