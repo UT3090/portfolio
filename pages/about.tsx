@@ -16,6 +16,7 @@ export default function AboutPage() {
           options={{
             autoplay: true,
             interval: 3000,
+            type: 'loop',
           }}
           className="mt-5"
         >

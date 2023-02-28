@@ -9,7 +9,7 @@ const Setting = {
   basePath: Env.basePath,
   myPics: [
     'devil',
-    'devil',
+    'kurokawa',
     'devil',
   ].map((name) => `${Env.basePath}/${name}.png`)
 };
